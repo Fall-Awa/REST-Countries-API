@@ -61,7 +61,7 @@ x![Screenshot 2025-01-21 122158](https://github.com/user-attachments/assets/3a43
 ## Ressources
 
 - API : [REST Countries](https://restcountries.com)
-- Hébergement : [GitHub Pages](https://pages.github.com/), [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/)
+- Hébergement : [GitHub Pages](https://pages.github.com/), [Vercel]([https://vercel.com/](https://rest-countries-api-khaki.vercel.app/)), [Netlify](https://www.netlify.com/)
 - Communauté : [Frontend Mentor Community](https://www.frontendmentor.io/community)
 
 ---
