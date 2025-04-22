@@ -39,8 +39,8 @@ export default function Contenu() {
   });
 
   return (
-    <main className="dark:bg-gray-800">
-      <div className="flex flex-col md:flex-row justify-between p-4 container mx-auto">
+    <section className="dark:bg-gray-800 p-8 ">
+      <div className="flex flex-col md:flex-row justify-between w-full">
         <div className="flex bg-white dark:bg-gray-700 py-3 px-4 mt-6 border border-gray-200 dark:border-gray-600 rounded-lg w-full md:w-1/3 mb-4 md:mb-0">
           <Search className="text-black dark:text-white mr-2" />
           <input
@@ -51,7 +51,7 @@ export default function Contenu() {
             onChange={handleSearch}
           />
         </div>
-        <div className="py-2 px-4 mt-6 md:mt-3 md:ml-4">
+        <div className="py-2  mt-6 md:mt-3 md:ml-4">
           <select
             className="w-full md:w-48 py-2 px-2 placeholder-gray-500 dark:placeholder-gray-300 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg"
             value={selectQuery}
@@ -66,7 +66,7 @@ export default function Contenu() {
           </select>
         </div>
       </div>
-      <div className="container mx-auto px-4">
+
         <div className="flex flex-wrap -mx-4">
           {FData.map((item, index) => (
             <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
@@ -104,7 +104,7 @@ export default function Contenu() {
             </div>
           ))}
         </div>
-      </div>
-    </main>
+      
+    </section>
   );
 }

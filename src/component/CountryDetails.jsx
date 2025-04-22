@@ -19,7 +19,7 @@ export default function CountryDetails() {
   }, [name]);
 
   return (
-    <div className="  dark:bg-gray-800/100 h-full w-full dark:text-white  mx-auto px-10 py-8">
+    <div className="  dark:bg-gray-800/100   h-screen  w-full dark:text-white   px-10 py-8">
       <Link to="/">
         <div className="flex items-center border w-24 bg-white dark:bg-gray-700 dark:border-gray-600 p-2 mb-8 rounded-lg">
           <ArrowLeft className="text-black dark:text-white mr-2" /> Back

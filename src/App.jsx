@@ -18,12 +18,12 @@ function App() {
   return (
     <BrowserRouter>
       <div
-        className={`h-screen ${
+        className={` ${
           darkMode ? "dark bg-gray-800 text-white" : "bg-zinc-100 text-black"
         }`}
       >
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-        <main className="container">
+        <main className="">
           <Routes>
             <Route path="/" element={<Contenu />} />
             <Route path="/:name" element={<CountryDetails />} lo />
